@@ -1,15 +1,13 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<ctype.h>
+#include "holberton.h"
 int main(void)
 {
 char school[10] = "Holberton";
 int i = 0;
 while (i < 9)
 {
-putchar(school[i]);
+_putchar(school[i]);
 i++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
