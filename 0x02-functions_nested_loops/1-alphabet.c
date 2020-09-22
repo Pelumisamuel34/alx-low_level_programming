@@ -1,5 +1,10 @@
 #include "holberton.h"
-
+/**
+*Writing a function not a program
+*
+*This program is not meant to be compiled
+*
+*/
 void print_alphabet(void)
 {
 char i;
@@ -9,9 +14,3 @@ _putchar(i);
 }
 _putchar('\n');
 }
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-

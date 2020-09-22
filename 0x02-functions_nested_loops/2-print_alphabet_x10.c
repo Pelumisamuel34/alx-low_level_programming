@@ -1,5 +1,10 @@
 #include "holberton.h"
-
+/**
+*
+*Writing a function to print the stuff
+* I am not writing a program
+*
+*/
 void print_alphabet_x10(void)
 {
 	int i = 0;
@@ -13,9 +18,3 @@ _putchar(j);
 _putchar('\n');
 }
 }
-int main(void)
-{
-print_alphabet_x10();
-return (0);
-}
-
